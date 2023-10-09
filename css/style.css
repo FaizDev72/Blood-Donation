@@ -13,10 +13,12 @@ html {
   --red: #ea4156;
   --grey: #6d7d8b;
   --dark-blue: #3c4862;
-  --shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.5);
+  --shadow: 0px 4px 41px 0px rgba(0, 0, 0, 0.25);
   /* --text-shadow: drop-shadow(2px 3.3px 2px rgba(60, 73, 99, 0.5)); */
 }
-
+.shadow {
+  box-shadow: 0px 4px 41px 0px rgba(0, 0, 0, 0.25);
+}
 *,
 *::after,
 *::before {
@@ -210,24 +212,24 @@ body {
 .mynav-link {
   color: black;
 }
-.table-striped>tbody>tr:nth-of-type(odd)>* {
+.table-striped > tbody > tr:nth-of-type(odd) > * {
   --bs-table-color-type: var(--bs-table-striped-color);
   --bs-table-bg-type: rgb(255 0 0 / 10%);
 }
 
-.table>:not(caption)>*>* {
+.table > :not(caption) > * > * {
   border-bottom-width: 0;
   padding: 20px 30px;
 }
 .table > thead th {
-  color: #FFF;
-font-size: 22px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: 1px;
-text-transform: capitalize;
-} 
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
 
 .table > tbody > tr {
   font-size: 18px;
@@ -236,18 +238,18 @@ text-transform: capitalize;
   line-height: normal;
   letter-spacing: 1px;
   text-transform: capitalize;
-} 
+}
 /* .navbar-wrapper .nav-link:hover {
   color: var(--dark-blue) !important;
   padding: 10px 15px;
 } */
-.blood-donor-form select{
+.blood-donor-form select {
   border: 1px solid var(--red);
 }
 .form-select:focus {
-    border-color: #fe8686;
-    outline: 0;
-    box-shadow: 0 0 0 0.25rem rgba(253, 13, 13, 0.25);
+  border-color: #fe8686;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(253, 13, 13, 0.25);
 }
 .nav-item.has-dropdown-menu {
   padding-right: 15px;
@@ -459,7 +461,7 @@ text-transform: capitalize;
   padding-bottom: 3.6rem;
 }
 .footer-head {
-  color: #FFF;
+  color: #fff;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -473,14 +475,14 @@ text-transform: capitalize;
   font-weight: 500;
   line-height: 20px; /* 111.111% */
   text-transform: capitalize;
-  color: #FFF;
+  color: #fff;
   letter-spacing: 3px;
 }
 .footer-link:hover {
   color: rgba(255, 255, 255, 0.65) !important;
 }
 .footer-desc {
-  color: #FFF;
+  color: #fff;
   font-family: Poppins;
   font-size: 18px;
   font-style: normal;
